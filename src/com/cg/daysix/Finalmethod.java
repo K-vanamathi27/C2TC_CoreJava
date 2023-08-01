@@ -7,9 +7,8 @@ public class Finalmethod {
 	}  
 	     
 	class Final2 extends Finalmethod{  
-	   void run(){//can't override final method
+	   void run(){
+		   //can't override final method
 		   System.out.println("running safely with 100kmph");
-		   }  
-	     
-
+		   }
 }
